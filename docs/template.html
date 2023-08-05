@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta content="text/html; charset=UTF-8" name="Content-Type">
+        <meta charset="utf-8">
+        <title>Tracker for NVDA</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="container">
+        <h1>On this page we are tracking the price of the NVDA stock</h1>
+
+        <p>We have {measurement_count} measurements of the NVIDIA stock.</p>
+        <p>The maximum price we have seen is {maximum_price}</p>
+        <p>The minimum price we have seen is {minimum_price}</p>
+        <h3>We made this chart using Datawrapper, it gets updated when the GitHub repo's CSV file is updated</h3>
+
+        {datawrapper_embed_code}
+
+        <h3>We made this chart using Altair, it is automatically updated by a Jupyter notebook</h3>
+
+        <img src="output.png">
+
+    </div>
+    </body>
+</html>
